@@ -1,0 +1,130 @@
+/*search 部分*/
+.ui-search{
+	background: url(../img/ui-search.jpg) center no-repeat;
+	font-size: 14px;
+	color: #fff;
+	position: relative;
+}
+.ui-search-selected{
+	width: 70px;
+	height: 38px;
+	line-height: 38px;
+	position: absolute;
+	left: 0;
+	top:0;
+	text-indent: 14px;
+}
+.ui-search-select-list{
+	width: 67px;
+	line-height: 26px;
+	background-color: #fff;
+	box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+	position: absolute;
+	left: 2px;
+	top:37px;
+	z-index: 2;
+}
+.ui-search-select-list a{
+	display: block;
+	color:#A5A2A2;
+	text-align: center;
+}
+.ui-search-select-list a:hover{
+	background-color: #ebeef5;
+}
+.ui-search-input{
+	width: 208px;
+	height: 26px;
+	position: absolute;
+	top:5px;
+	left: 73px;
+	color: #A5A2A2;
+}
+.ui-search-submit{
+	display: inline-block;
+	width: 40px;
+	height: 36px;
+	position: absolute;
+	top:1px;
+	right:0;
+}
+
+/*backtop部分*/
+.ui-backtop{
+	display: block;
+	position: fixed;
+	right: 2px;
+	bottom:2px;
+	height: 40px;
+	width: 40px;
+	background:rgba(102,102,102,0.9) url(../img/icon-go-up.png) no-repeat center;
+}
+.ui-backtop:hover{
+	background:#ccc;
+}
+.ui-backtop:hover:after{
+	content: '回到顶部';
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+}
+
+/*slide部分*/
+.banner-slider{
+	width: 544px;
+	height: 414px;
+	position: relative;
+}
+.banner-slide-wrap{
+	width: 544px;
+	height: 414px;
+	overflow: hidden;
+}
+.banner-slide-wrap .item{
+	display: block;
+	width: 544px;
+	height: 414px;
+}
+.banner-slide-arrow{
+	width: 544px;
+	height: 40px;
+	position: absolute;
+	top:50%;
+	left: 0;
+	margin-top: -20px;
+}
+.banner-slide-arrow .item{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	background:url(../img/ui-slider-arrow.png) no-repeat;
+}
+.banner-slide-arrow .left{
+	left: 0;
+}
+.banner-slide-arrow .right{
+	right: 0;
+	background-position: -40px 0;
+}
+.banner-slide-process{
+	width: 60px;
+	height: 12px;
+	margin:0 auto;
+	position: absolute;
+	left: 254px;
+	bottom: 10px;
+	text-align: center;
+}
+.banner-slide-process .item{
+	display: block;
+	width: 12px;
+	height: 12px;
+	float: left;
+	padding:0 4px;
+	background: url(../img/ui-slider-process.png) no-repeat 0 0;
+}
+.banner-slide-process .item_focus{
+	background-position: -23px 0;
+}
